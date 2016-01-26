@@ -1,7 +1,7 @@
-    # The First Day
+# **The First Day**
 
 
-## Gitbook
+## **Gitbook**
 
 So i have started writing using GitBook, to take notes of what i learn every day. a few things have shown up.
 
@@ -10,7 +10,9 @@ So i have started writing using GitBook, to take notes of what i learn every day
     * SUMMARY.md
 2. Markdown is partially working as per escape characters don't work with &#35; and numbering and listing get confused.
 
-## C&#35;
+## **Coding**
+
+###**C&#35;**
 
 When doing complex objects using an object to help the building is welcome. 
 ```csharp
