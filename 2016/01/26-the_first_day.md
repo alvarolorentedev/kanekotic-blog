@@ -47,12 +47,12 @@ public class Complex
 In this way you remove some complexity of just adding steps in your constructor to something more abstract and can contain the logic.
 
 ```csharp
-    interface IBuildHelper<T>
+    public interface IBuildHelper<T>
     {
         void Construct(T reference);
     }
 
-    class Complex
+    public class Complex
     {
         class ComplexBuildHelper : IBuildHelper<Complex>
         {
@@ -101,4 +101,5 @@ In this way you remove some complexity of just adding steps in your constructor 
         }
 
     }
-```
+    
+    ```
