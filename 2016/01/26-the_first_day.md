@@ -11,7 +11,7 @@ So i have started writing using GitBook, to take notes of what i learn every day
 2. Markdown is partially working as per escape characters don't work with &#35; and numbering and listing get confused.
 
 ## **Coding**
-
+C#
 ###**C&#35;**
 
 When doing complex objects using an object to help the building is welcome. 
