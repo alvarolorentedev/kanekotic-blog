@@ -14,4 +14,6 @@ So i have started writing using GitBook, to take notes of what i learn every day
 
 ## C&#35;
 
-When doing complex objects a builder pattern is always welcome. To remove some complexity of just adding steps in your constructor to something more abstract and can contain the logic.
+When doing complex objects a builder pattern is always welcome, I found myself refactoring code due this Today. 
+
+In this way you remove some complexity of just adding steps in your constructor to something more abstract and can contain the logic.
