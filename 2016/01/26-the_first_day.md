@@ -10,6 +10,8 @@ So i have started writing using GitBook, to take notes of what i learn every day
     * SUMMARY.md
 2. Markdown is partially working as per escape characters don't work with # and numbering and listing get confused if they are not tab.
 
+
+
 ## **Coding**
 
 ### C# # 
