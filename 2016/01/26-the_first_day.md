@@ -45,25 +45,25 @@ In this way you remove some complexity of just adding steps in your constructor 
 
 ```csharp
 public class Complex
+{
+    public double X { get; set; }
+    public double Y { get; set; }
+    public double Z { get; set; }
+
+    public double Height { get; set; }
+    public double Width { get; set; }
+
+    public string Foreground { get; set; }
+    public string Background { get; set; }
+
+    public Complex(ComplexBuildHelper buildHelper)
     {
-        public double X { get; set; }
-        public double Y { get; set; }
-        public double Z { get; set; }
-
-        public double Height { get; set; }
-        public double Width { get; set; }
-
-        public string Foreground { get; set; }
-        public string Background { get; set; }
-
-        public void Complex(ComplexBuildHelper buildHelper)
-        {
-            buildHelper.Construct(this);
-        }
-
+        buildHelper.Construct(this);
     }
-    
-class ComplexBuildHelper
+
+}
+
+public class ComplexBuildHelper
 {
     public void Construct(Complex reference)
     {
@@ -71,7 +71,7 @@ class ComplexBuildHelper
         BuildDimension(reference);
         BuildCharacteristics(reference);
     }
-    
+
     private void BuildPosition(Complex reference)
     {
         reference.X = 1.456;
@@ -91,7 +91,5 @@ class ComplexBuildHelper
         reference.Foreground = "#FFF";
         reference.Background = "#FA1";
     }
-
-    
 }
 ```
