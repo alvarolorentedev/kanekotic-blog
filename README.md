@@ -3,7 +3,7 @@
 This is a dairy of things i have learn or though useful on the day to day.
 ###Disclaimer
 
-All ideas expressed within these pages are my personal opinion and experience. They should not be taken in any way as representing any other person, organisation, or entity. This opinion can and will change over time.
+All ideas expressed within these pages are my personal opinion and experience. They should not be taken in any way as representing any other person, organisation, or entity. Some of this opinions can and will change over time based on experience.
 
 ###Licensing
 
