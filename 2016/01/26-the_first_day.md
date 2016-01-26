@@ -17,7 +17,7 @@ So i have started writing using GitBook, to take notes of what i learn every day
 When doing complex objects a builder pattern is always welcome, I found myself refactoring code due this Today. 
 
 ```csharp
-public class Complex
+class Complex
 {
     double x;
     double y;
@@ -47,14 +47,9 @@ public class Complex
 In this way you remove some complexity of just adding steps in your constructor to something more abstract and can contain the logic.
 
 ```csharp
-    public interface IBuildHelper<T>
+class Complex
     {
-        void Construct(T reference);
-    }
-
-    public class Complex
-    {
-        class ComplexBuildHelper : IBuildHelper<Complex>
+        class ComplexBuildHelper
         {
             void BuildPosition(Complex reference)
             {
@@ -101,5 +96,5 @@ In this way you remove some complexity of just adding steps in your constructor 
         }
 
     }
-    
-    ```
+
+```
