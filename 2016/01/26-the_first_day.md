@@ -15,7 +15,7 @@ So i have started writing using GitBook, to take notes of what i learn every day
 
 When doing complex objects using an object to help the building is welcome. 
 ```csharp
-class Complex
+public class Complex
 {
     double x;
     double y;
