@@ -1,7 +1,7 @@
 # **The First Day**
 
 
-## **Gitbook**
+## **Gitbook - The beginnig**
 
 So i have started writing using GitBook, to take notes of what i learn every day. a few things have shown up.
 1. There are some required files if you start from a GitHub repository that you will have to create:
@@ -9,9 +9,8 @@ So i have started writing using GitBook, to take notes of what i learn every day
     * SUMMARY.md
 2. Markdown is partially working as per escape characters don't work with # and numbering and listing get confused if they are.
 
-## **Coding**
+## **Coding - C# - Complex Constructors**
 
-### **C#** 
 
 When doing complex objects using an object to help the building is welcome. 
 ```csharp
