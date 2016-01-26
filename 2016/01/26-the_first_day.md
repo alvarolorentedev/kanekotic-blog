@@ -13,7 +13,6 @@ So i have started writing using GitBook, to take notes of what i learn every day
 ## C&#35;
 
 When doing complex objects using an object to help the building is welcome. 
-
 ```csharp
 class Complex
 {
@@ -45,17 +44,17 @@ class Complex
 In this way you remove some complexity of just adding steps in your constructor to something more abstract and can contain the logic.
 
 ```csharp
-class Complex
+public class Complex
     {
-        double X { get; set; }
-        double Y { get; set; }
-        double Z { get; set; }
+        public double X { get; set; }
+        public double Y { get; set; }
+        public double Z { get; set; }
 
-        double Height { get; set; }
-        double Width { get; set; }
+        public double Height { get; set; }
+        public double Width { get; set; }
 
-        string Foreground { get; set; }
-        string Background { get; set; }
+        public string Foreground { get; set; }
+        public string Background { get; set; }
 
         public void Complex(ComplexBuildHelper buildHelper)
         {
@@ -66,7 +65,14 @@ class Complex
     
 class ComplexBuildHelper
 {
-    void BuildPosition(Complex reference)
+    public void Construct(Complex reference)
+    {
+        BuildPosition(reference);
+        BuildDimension(reference);
+        BuildCharacteristics(reference);
+    }
+    
+    private void BuildPosition(Complex reference)
     {
         reference.X = 1.456;
         reference.Y = 1.234;
@@ -74,23 +80,18 @@ class ComplexBuildHelper
 
     }
 
-    void BuildDimension(Complex reference)
+    private void BuildDimension(Complex reference)
     {
         reference.Height = 10.12;
         reference.Width = 10.14;
     }
 
-    void BuildCharacteristics(Complex reference)
+    private void BuildCharacteristics(Complex reference)
     {
         reference.Foreground = "#FFF";
         reference.Background = "#FA1";
     }
 
-    public void Construct(Complex reference)
-    {
-        BuildPosition(reference);
-        BuildDimension(reference);
-        BuildCharacteristics(reference);
-    }
+    
 }
 ```
