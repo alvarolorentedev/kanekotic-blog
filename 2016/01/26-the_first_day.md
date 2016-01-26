@@ -77,7 +77,6 @@ public class ComplexBuildHelper
         reference.X = 1.456;
         reference.Y = 1.234;
         reference.Z = 1.789;
-
     }
 
     private void BuildDimension(Complex reference)
