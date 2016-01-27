@@ -8,5 +8,4 @@
            * Coding - C# - Complex Constructors
        * [27](2016/January/27.md)
            * Meteor - The documentation
-       * 28
 
