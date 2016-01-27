@@ -1,6 +1,7 @@
 {
     "plugins": [
-        "jsbin"
+        "jsbin",
+        "jsfiddle"
     ],
     "pluginsConfig": {}
 }
