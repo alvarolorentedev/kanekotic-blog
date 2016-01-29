@@ -12,5 +12,6 @@
        * [28](2016/January/28.md)
         * C# - Extension Methods
             *  overlap with LINQ
+            *  How bad Extension Methods over object could go
        * [29](2016/January/29.md)
 
