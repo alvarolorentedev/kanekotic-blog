@@ -18,8 +18,7 @@
             * C# - Paths to system folders
    * February
         * [01](2016/February/01.md)
-            * GIT - Branches, Tags and Commits
-            * C# - Paths to system folders
+            * TFS 2015 - vnext and sonarqube integration
         * [03](2016/February/03.md)
         * [04](2016/February/04.md)
 
