@@ -14,8 +14,12 @@
             *  overlap with LINQ
             *  How bad Extension Methods over object could go
        * [29](2016/January/29.md)
+            * GIT - Branches, Tags and Commits
+            * C# - Paths to system folders
    * February
         * [01](2016/February/01.md)
+            * GIT - Branches, Tags and Commits
+            * C# - Paths to system folders
         * [03](2016/February/03.md)
         * [04](2016/February/04.md)
 
