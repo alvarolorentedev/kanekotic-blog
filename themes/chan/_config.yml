@@ -5,7 +5,7 @@ rss: /atom.xml
 favicon: /favicon.png
 
 # style setting
-monochrome: true
+monochrome: false
 
 # view setting
 avatar: https://avatars3.githubusercontent.com/u/3071208?v=3&s=460
