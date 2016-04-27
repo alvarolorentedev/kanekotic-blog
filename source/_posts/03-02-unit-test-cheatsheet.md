@@ -1,10 +1,8 @@
 ---
-title: 03-02
-date: 2016-04-27 20:22:36
+title: Unit Test CheatSheet
+date: 2016-03-02 20:22:36
 tags: daily, learn
 ---
-
-#Unit Test CheatSheet
 
 ##**mstest**
 

@@ -1,10 +1,8 @@
 ---
-title: 02-04
-date: 2016-04-27 20:22:36
+title: C# - Path.Combine
+date: 2016-02-24 20:22:36
 tags: daily, learn
 ---
-
-##**C# - Path.Combine**
 
 When using path.Combine if the second argument starts with a /. the first path is ignored and will give a path based on the C: drive.
 ```csharp

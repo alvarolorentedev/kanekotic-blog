@@ -1,12 +1,8 @@
 ---
-title: 01-28
-date: 2016-04-27 20:22:36
+title: C# - Extension methods overlap with linq
+date: 2016-01-28 20:22:36
 tags: daily, learn
 ---
-
-##**C# - Extension Methods**
-
-###**overlap with LINQ**
 
 I have hit a corner case of extension methods and LINQ. Today I was declaring some extension methods to make my code more readable.So I created an extension method that gets an object and performs a direct cast:
 
@@ -47,7 +43,7 @@ Error	CS1936	Could not find an implementation of the query pattern for source ty
 
 Having both extension methods in different namespaces (and not referred), or rename ```Cast<T>``` to something different solves the issue. This is caused for an overlap of the extension methods where the nearest one to the code is the one called.
 
-###**How bad Extension Methods over object could go**
+##**How bad Extension Methods over object could go?**
 
 This is an extract from the answer of Eric Lippert, regarding the code:
 

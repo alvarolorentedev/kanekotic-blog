@@ -1,22 +1,8 @@
 ---
-title: 01-26
-date: 2016-04-27 20:22:36
+title: Coding - C# - Complex Constructors
+date: 2016-01-26 20:22:36
 tags: daily, learn
 ---
-
-# **The First Day**
-
-
-## **Gitbook - The beginnig**
-
-So i have started writing using GitBook, to take notes of what i learn every day. a few things have shown up.
-1. There are some required files if you start from a GitHub repository that you will have to create:
-    * README.md
-    * SUMMARY.md
-2. Markdown is partially working as per escape characters don't work with # and numbering and listing get confused if they are.
-
-## **Coding - C# - Complex Constructors**
-
 
 When doing complex objects using an object to help the building is welcome.
 ```csharp

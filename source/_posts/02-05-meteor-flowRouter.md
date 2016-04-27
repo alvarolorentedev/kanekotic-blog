@@ -1,9 +1,8 @@
 ---
-title: 02-05
-date: 2016-04-27 20:22:36
+title: Meteor - FlowRouter
+date: 2016-02-05 20:22:36
 tags: daily, learn
 ---
-## **Meteor - FlowRouter**
 
 This package is a very useful to define the navigation on your client side application. To add it just use the next command line:
 ```

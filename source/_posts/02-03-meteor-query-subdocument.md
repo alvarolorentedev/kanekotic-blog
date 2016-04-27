@@ -1,12 +1,8 @@
 ---
-title: 02-03
-date: 2016-04-27 20:22:36
+title: Meteor - Query subdocument
+date: 2016-02-03 20:22:36
 tags: daily, learn
 ---
-
-## **Meteor**
-
-###**Query Subdocument**
 
 
 To make a query over a subdocument in meteor is not posible to use directly the ```$``` or ```$elemMatch``` notation. It is necesary to use the keyword ```fields:``` to do this. To publish just part of a mongo document you should do a query similar to this:

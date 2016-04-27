@@ -1,46 +1,8 @@
 ---
-title: 01-27
-date: 2016-04-27 20:22:36
+title: C# - Fluent Interfaces with Extension Methods
+date: 2016-01-27 20:22:36
 tags: daily, learn
 ---
-
-##**Meteor**
-
-###**Documentation**
-
-I found a lot of interesting things in this link, i can setup my view model to a real JavaScript object.
-
-https://viewmodel.meteor.com/docs
-
-###**Markdown**
-
-To add markdown support you will have to add the markdown package:
-
-```
-meteor add markdown
-```
-
-If you also want your snippets of code to have some style you will also need to add the highlight.js package:
-
-```
-meteor add simple:highlight.js
-```
-
-###**AutoForm**
-
-to get a multi-line input you need to make sure you get a textarea. This can be done in the collection definition by:
-```js
-TestSchema = new SimpleSchema({
-    content: {
-        type: String,
-        label: "Content",
-        autoform: {
-            rows: 10
-        }
-    }
-});
-```
-##**C# - Fluent Interfaces with Extension Methods**
 
 I have not experiment to much with fluent interfaces. But is something cool especially to make code that is expressive.
 

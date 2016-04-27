@@ -1,10 +1,8 @@
 ---
-title: 02-01
-date: 2016-04-27 20:22:36
+title: TFS 2015 - vnext and sonarqube integration
+date: 2016-02-01 20:22:36
 tags: daily, learn
 ---
-
-## **TFS 2015 - vnext and sonarqube integration**
 
 The modifications required to use the integrated sonarqube steps are:
 

@@ -27,6 +27,27 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 
+#markdown
+marked:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: true
+  smartLists: true
+  smartypants: true
+
+#sitemap
+sitemap:
+    path: sitemap.xml
+
+#rss feed
+feed:
+    type: atom
+    path: atom.xml
+    limit: 20
+    hub:
+
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
