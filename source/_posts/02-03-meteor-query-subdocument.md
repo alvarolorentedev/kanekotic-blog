@@ -5,7 +5,7 @@ tags: daily, learn
 ---
 
 
-To make a query over a subdocument in meteor is not posible to use directly the ```$``` or ```$elemMatch``` notation. It is necesary to use the keyword ```fields:``` to do this. To publish just part of a mongo document you should do a query similar to this:
+To make a query over a subdocument in meteor is not posible to use directly the '$' or '$elemMatch' notation. It is necesary to use the keyword 'fields:' to do this. To publish just part of a mongo document you should do a query similar to this:
 
 ```javascript
 Meteor.publish('chapter', function(id, name){

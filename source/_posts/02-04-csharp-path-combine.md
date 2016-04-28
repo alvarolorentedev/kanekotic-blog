@@ -1,6 +1,6 @@
 ---
 title: C# - Path.Combine
-date: 2016-02-24 20:22:36
+date: 2016-02-04 20:22:36
 tags: daily, learn
 ---
 
@@ -9,7 +9,7 @@ When using path.Combine if the second argument starts with a /. the first path i
 var path = Path.Combine(firstpath,$@"\myfolder\myfile.txt");
 ```
 
-will not return ```firstpath\myfolder\myfile.txt``` will return ```C:\\\myfolder\myfile.txt```.
+will not return <firstpath\myfolder\myfile.txt> will return <C:\\\myfolder\myfile.txt>.
 
 ## **Meteor - Session variables**
 
