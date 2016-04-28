@@ -4,29 +4,29 @@
 * 2016
    * January
        * 26
-           * Gitbook - The beginnig
+           * Gitbook - The beginning
            * Coding - C# - Complex Constructors
-       * [27](2016/January/27.md)
+       * 27
            * Meteor - The documentation
            * C# - Fluent Interfaces with Extension Methods
-       * [28](2016/January/28.md)
+       * 28
            * C# - Extension Methods
                * overlap with LINQ
                * How bad Extension Methods over object could go
-       * [29](2016/January/29.md)
+       * 29
            * GIT - Branches, Tags and Commits
            * C# - Paths to system folders
    * February
-       * [01](2016/February/01.md)
+       * 01
            * TFS 2015 - vnext and sonarqube integration
-       * [03](2016/February/03.md)
+       * 03
            * Meteor - Query Subdocument
-       * [04](2016/February/04.md)
+       * 04
            * C# - Path.Combine* Meteor
            * Session variables
-       * [05](2016/February/05.md)
+       * 05
            * Meteor - FlowRouter
    * March
-       * [02](2016/March/02.md)
+       * 02
            * Unit Test cheat sheet
 
