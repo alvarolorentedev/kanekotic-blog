@@ -29,5 +29,5 @@
            * [Unit Test cheat sheet](source/_post/03-02-unit-test-cheatsheet.md)
    * May
        * 17
-           * 04-17-ubuntu-not-turning-off-or-restarting.md
+           * [04-17-ubuntu-not-turning-off-or-restarting.md](source/_posts/04-17-ubuntu-not-turning-off-or-restartingmd.md)
 
