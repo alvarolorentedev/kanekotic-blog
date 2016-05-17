@@ -10,7 +10,8 @@ The way to solve this is changing the boot parameters for the operating system. 
 sudo nano /etc/default/grub
 ```
 2.
-3. Call the command line to update the grub (os selector for operating system)
+
+4. 3. Call the command line to update the grub (os selector for operating system)
 ```
 sudo update-grub
 ```
