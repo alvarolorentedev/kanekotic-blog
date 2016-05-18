@@ -9,7 +9,7 @@ before_install:
 before_script:
 - git config --global user.name "${env.username}"
 - git config --global user.email "${env.email}"
-- git config remote.origin.url "https://you:{$env.password}@github.com/{$env.username}/{$env.username}.git"
+- git config remote.origin.url "https://{$env.username}:{$env.password}@github.com/{$env.username}/{$env.username}.git"
 install:
 - npm install
 script:
