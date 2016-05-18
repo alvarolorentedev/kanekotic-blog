@@ -9,7 +9,7 @@ before_install:
 before_script:
 - git config --global user.name "${username}"
 - git config --global user.email "${email}"
-- sed -i "s|https://github.com/${username}/${username}.github.com.git|https://${token}:x-oauth-basic@github.com/${username}/${username}.github.com.git|" _config.yml
+- sed -i "s|https://github.com/${username}/${username}.github.com.git|https://${username}:${password}@github.com/${username}/${username}.github.com.git|" _config.yml
 
 install:
 - npm install
