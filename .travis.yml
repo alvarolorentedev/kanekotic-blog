@@ -14,4 +14,4 @@ before_script:
 install:
 - npm install
 script:
-- hexo generate -d
+- hexo generate -d --silent
