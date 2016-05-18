@@ -1,0 +1,16 @@
+
+language: node_js
+branches:
+  only:
+  - master
+before_install:
+- npm install -g hexo-cli
+- npm install -g hexo
+before_script:
+- git config --global user.name "${username}"
+- git config --global user.email "${email}"
+- git config remote.origin.url "https://you:{$password}@github.com/{$username}/{$username}.git"
+install:
+- npm install
+script:
+- hexo generate -d
