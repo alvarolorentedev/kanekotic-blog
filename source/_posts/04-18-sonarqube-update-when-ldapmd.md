@@ -1,8 +1,7 @@
 ---
-title: Sonarqube Upgrade Error due LDAP
 date: 2016-05-17 21:15:00
 tags: daily, learn, sonarqube, LDAP
-
+title: Sonarqube Upgrade Error due LDAP
 ---
 
 While upgrading Sonarqube i am getting the next error message
