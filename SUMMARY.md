@@ -31,5 +31,5 @@
        * 17
            * [04-17-ubuntu-not-turning-off-or-restarting.md](source/_posts/04-17-ubuntu-not-turning-off-or-restartingmd.md)
        * 18
-           * source/_posts/04-18-sonarqube-update-when-ldap.md
+           * [source/_posts/04-18-sonarqube-update-when-ldap.md](source/_posts/04-18-sonarqube-update-when-ldapmd.md)
 
