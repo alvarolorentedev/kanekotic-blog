@@ -7,9 +7,9 @@ before_install:
 - npm install -g hexo-cli
 - npm install -g hexo
 before_script:
-- git config --global user.name "${username}"
-- git config --global user.email "${email}"
-- git config remote.origin.url "https://you:{$password}@github.com/{$username}/{$username}.git"
+- git config --global user.name "${env.username}"
+- git config --global user.email "${env.email}"
+- git config remote.origin.url "https://you:{$env.password}@github.com/{$env.username}/{$env.username}.git"
 install:
 - npm install
 script:
